@@ -2,111 +2,49 @@ export const PORTFOLIO = {
   title: 'Portfolio',
   subtitle: 'My',
   typeWriter: ['Best Works', 'Latest Projects'],
-  github: 'https://github.com',
+  github: 'https://github.com/Rashad-Stack/',
   types: ['All', 'Website', 'Mobile App', 'UI/UX Design', 'Graphic Design'],
   projects: [
     {
-      title: 'VISCO Landing Page',
+      title: 'Crypto Currency Landing Page',
       description:
-        'Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      video:
-        'https://ak.picdn.net/shutterstock/videos/1076130974/preview/stock-footage-diverse-company-employees-having-online-business-conference-video-call-on-tv-screen-monitor-in.mp4',
+        'Cannacoin($CCN) is an alternative, instant payment system for the cannabis industry. It was first deployed on March 28, 2014 as a solution to the "cash only" predicament set on growers, dispensaries, and consumers alike through Federal regulation as well as a response to the Global Financial Crisis of 2008. It was the brainchild of the pseudonymous Subtoshi, the founder of the popular, but now defunct, "NWGT.org" (Northwest Green Thumb) online medical cannabis forum based in the Pacific Northwest. Cannacoin Prime picks up where Cannacoin Classic left off. It is a smart contract based token and is intended for use within the independent, medical, and recreational cannabis communities as a medium of exchange, a unit of account, and a store of value for cannabis and cannabis related products and services, worldwide',
+      video: null,
       images: {
-        default: '/Asset/portfolio/bash-landing-page.jpg',
+        default: '/Asset/portfolio/cannacoin-org.png',
         variants: [
-          '/Asset/portfolio/bash-landing-page.jpg',
-          '/Asset/portfolio/bash-landing-page.jpg',
+          '/Asset/portfolio/cannacoin-org.png',
+          '/Asset/portfolio/cannacoin-org.png',
         ],
       },
-      link: 'https://ksdevware.com',
+      link: 'https://www.cannacoin.org/',
       type: 'Website',
-      tags: ['Web Design', 'Graphic Design', 'Mobile Apps'],
-      source: 'https://github.com/',
+      tags: ['HTML', 'CSS', 'Bootstrap,Javascript'],
+      source: 'https://github.com/Rashad-Stack/cannacoin',
     },
     {
-      title: 'Bash Landing Page',
-      description:
-        'Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      video: 'https://vimeo.com/208819209',
-      images: {
-        default: '/Asset/portfolio/bash-landing-page-1.png',
-        variants: [
-          '/Asset/portfolio/bash-landing-page-1.png',
-          '/Asset/portfolio/bash-landing-page-1.png',
-        ],
-      },
-      link: 'https://ksdevware.com',
-      type: 'Graphic Design',
-      tags: ['Web Design', 'Graphic Design', 'Mobile Apps'],
-      source: null,
-    },
-    {
-      title: 'Bash Landing Page',
-      description:
-        'Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      video: 'https://www.youtube.com/watch?v=zw7fXtKqTkg',
-      images: {
-        default: '/Asset/portfolio/bash-landing-page-2.png',
-        variants: [
-          '/Asset/portfolio/bash-landing-page-2.png',
-          '/Asset/portfolio/bash-landing-page-2.png',
-        ],
-      },
-      link: 'https://ksdevware.com',
-      type: 'UI/UX Design',
-      tags: ['Web Design', 'Graphic Design', 'Mobile Apps'],
-      source: 'https://github.com/',
-    },
-    {
-      title: 'Bash Landing Page',
-      description:
-        'Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      title: 'Developer Portfolio',
+      description: `ReactJS uses virtual DOM that makes the user experience better. It also makes the developer’s job less complex.
+JSX is used in ReactJS which is very simple and easy to learn. 
+There is no need for separate files for logic and markup in ReactJS.
+ReactJS is an open-source library that is maintained by Facebook. It is a constantly developing library.
+The one-data binding makes the code very stable.
+ReactJS also provides a mobile solution that is known as React Native.
+ReactJS is faster for rendering as compared to other web frameworks.
+Conditional statements in ReactJS are very helpful.
+It has a great developer’s toolkit.`,
       video: null,
       images: {
-        default: '/Asset/portfolio/visco-landing-page.png',
+        default: '/Asset/portfolio/developer-portfolio.png',
         variants: [
-          '/Asset/portfolio/visco-landing-page.png',
-          '/Asset/portfolio/visco-landing-page.png',
+          '/Asset/portfolio/developer-portfolio.png',
+          '/Asset/portfolio/developer-portfolio.png',
         ],
       },
-      link: 'https://ksdevware.com',
-      type: 'UI/UX Design',
-      tags: ['Web Design', 'Graphic Design', 'Mobile Apps'],
-      source: null,
-    },
-    {
-      title: 'VISCO Landing Page',
-      description:
-        'Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      video: null,
-      images: {
-        default: '/Asset/portfolio/visco-landing-page.png',
-        variants: [
-          '/Asset/portfolio/visco-landing-page.png',
-          '/Asset/portfolio/visco-landing-page.png',
-        ],
-      },
-      link: 'https://ksdevware.com',
+      link: 'https://devware-react-portfolio.vercel.app/',
       type: 'Website',
-      tags: ['Web Design', 'Graphic Design', 'Mobile Apps'],
-      source: null,
-    },
-    {
-      title: 'Bash Landing Page',
-      description:
-        'Adipisicing Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      video: null,
-      images: {
-        default: '/Asset/portfolio/visco-landing-page-1.png',
-        variants: [
-          '/Asset/portfolio/visco-landing-page-1.png',
-          '/Asset/portfolio/visco-landing-page-1.png',
-        ],
-      },
-      link: 'https://ksdevware.com',
-      type: 'Graphic Design',
-      tags: ['Web Design', 'Graphic Design', 'Mobile Apps'],
-      source: 'https://github.com/',
+      tags: ['React Js', 'Tailwind css'],
+      source: 'https://github.com/ksdevware/dev-portfolio-react',
     },
   ],
 };

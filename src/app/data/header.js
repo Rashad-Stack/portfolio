@@ -1,32 +1,32 @@
 export const HEADER = {
   logo: {
     src: null,
-    alt: "Khalid S.",
+    alt: 'Rashad',
   },
   menus: [
     {
-      name: "Home",
-      to: "Hero",
+      name: 'Home',
+      to: 'Hero',
     },
     {
-      name: "About",
-      to: "About",
+      name: 'About',
+      to: 'About',
     },
     {
-      name: "Resume",
-      to: "Resume",
+      name: 'Resume',
+      to: 'Resume',
     },
     {
-      name: "Works",
-      to: "Portfolio",
+      name: 'Works',
+      to: 'Portfolio',
     },
     {
-      name: "Blogs",
-      to: "Blogs",
+      name: 'Blogs',
+      to: 'Blogs',
     },
     {
-      name: "Contact",
-      to: "Contact",
+      name: 'Contact',
+      to: 'Contact',
     },
   ],
 };
