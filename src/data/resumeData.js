@@ -198,6 +198,73 @@ export const projects = [
     image: "resume.jpg",
     url: "https://coderkhalid.netlify.app",
   },
+  {
+    title: "Coffeeshops Website",
+    category: "Website",
+    image: "coffeeshops.png",
+    url: "https://rashadstack-coffeeshops.netlify.app",
+  },
+  {
+    title: "Omnifood Website",
+    category: "Website",
+    image:
+      "screencapture-rashadstack-omnifood-netlify-app-2023-02-20-03_15_26.png",
+    url: "https://rashadstack-omnifood.netlify.app",
+  },
+  {
+    title: "Freshfoods Website",
+    category: "Website",
+    image:
+      "screencapture-rashadstack-freshfoods-netlify-app-2023-02-20-03_18_50.png",
+    url: "https://rashadstack-freshfoods.netlify.app",
+  },
+  {
+    title: "Tomato Website",
+    category: "Website",
+    image:
+      "screencapture-rashadstack-tomato-netlify-app-delivery-2023-02-20-03_20_36.png",
+    url: "https://rashadstack-tomato.netlify.app/delivery",
+  },
+  {
+    title: "Parabot Website",
+    category: "Website",
+    image:
+      "screencapture-rashadstack-parabot-netlify-app-2023-02-20-03_23_07.png",
+    url: "https://rashadstack-parabot.netlify.app",
+  },
+  {
+    title: "Cannacoin Website",
+    category: "Website",
+    image: "screencapture-cannacoin-netlify-app-2023-02-20-03_25_15.png",
+    url: "https://cannacoin.org/",
+  },
+  {
+    title: "Forkify Website",
+    category: "Website",
+    image:
+      "screencapture-rashadstack-forkify-netlify-app-2023-02-20-03_28_27.png",
+    url: "https://rashadstack-forkify.netlify.app/#5ed6604591c37cdc054bcb37",
+  },
+  {
+    title: "Daraz Website",
+    category: "Website",
+    image:
+      "screencapture-rashad-stack-daraz-netlify-app-2023-02-20-03_30_02.png",
+    url: "https://rashad-stack-daraz.netlify.app",
+  },
+  {
+    title: "Omnifood Website",
+    category: "Website",
+    image:
+      "screencapture-omnifood-rashadstack-netlify-app-2023-02-20-03_31_18.png",
+    url: "https://omnifood-rashadstack.netlify.app",
+  },
+  {
+    title: "Foodiesfood Website",
+    category: "Website",
+    image: "screencapture-foodiesfood-netlify-app-2023-02-20-03_32_46.png",
+    url: "https://foodiesfood.netlify.app",
+  },
 ];
 
 export const partners = [
