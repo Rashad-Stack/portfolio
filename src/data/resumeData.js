@@ -1,7 +1,7 @@
 export const main = {
   name: "Rashadul Islam",
-  occupation: "Co-Founder of KS Devware",
-  description: "Software Engineer | Entrepreneur",
+  occupation: "Junior Web & Mobile Developer",
+  description: "Junior Web & Mobile Developer",
   image: "profilepic.jpg",
   bio: "As the co-founder of KS Devware (software development company), I am Rashadul Islam. A young entrepreneur. With nearly 2 years of experience, I’m a software engineer (full-stack web & mobile) and UI/UX designer. Worked as a senior lead full-stack developer. Moreover, I work on a few startups aimed at the Bangladesh. Developing software for the world of intent is something I'm passionate about and I'm dedicated to making the world of intent easy and affordable for everyone.",
   email: "rashadstack@gmail.com",
@@ -58,54 +58,28 @@ export const about = {
 export const works = [
   [
     {
-      company: "DP-Websolutions",
-      title: "Full-Stack Developer & UI/UX designer",
+      company: "KS - Devware",
+      title: "Full-Stack Developer - Intern",
       image: "img/behance.png",
-      years: "July 2020 - Present",
+      years: "July 2022 - Nov 2022",
       description:
         "• Dedicated years of collaborative effort resulted in 30% increase in company revenue <br />• Responsible for testing applications and looking for bugs & monitoring website performance <br />• Responsible for application code and UI/UX design <br />• Built responsive custom WordPress themes from scratch also with DIVI theme <br />• Optimized company website for performance and Search Engine Optimization",
     },
     {
-      company: "OpticEngine",
-      title: "Senior Lead Full-Stack Web & Mobile Developer",
+      company: "KS - Devware",
+      title: "Junior Lead Full-Stack Web & Mobile Developer",
       image: "img/behance.png",
-      years: "June 2021 - October 21",
+      years: "Nov 2022 - Jun 2023",
       description:
         "• Built websites with React JS and node js as backend <br />• Designing web and mobile apps mockups using Figma <br />• Designed and built the User Interface of the mobile app with React-native <br />• Assist the backend developer on ongoing development projects <br />• Participating in all decision-making processes which includes the database design, tooling, deployment processes etc",
     },
     {
-      company: "FN Softwares & institute",
-      title: "Trainer & Full-Stack Developer",
+      company: "Freelancer work",
+      title: "Lead Frontend Developer",
       image: "img/behance.png",
-      years: "Aug 20 - Present",
+      years: "Aug 2023",
       description:
         "• Trained programming over 500+ students on 2 successful courses <br />• Developed beta version of 'eSomaz (a social media)' app, used by 20K+ active users (increased active user by 25%) <br />• Developed a VS Code Extension for 'eSomaz' which helped to connect programmers <br />• Worked as an adviser on decision-making processes • Motivated jr developers on programming & life ",
-    },
-  ],
-  [
-    {
-      company: "Ganlax Group",
-      title: "Web Developer",
-      image: "img/behance.png",
-      years: "May 20 - Present",
-      description:
-        "• Built the company website with custom WordPress themes from scratch <br />• Optimized company website for performance and Search Engine Optimization <br />• Developed Custom Post Types and created custom fields with ACF plugins <br />• Sliced up design assets from Photoshop files when building custom themes <br />• Performed maintenance tasks on pre-existing sites using the Infinite WP dashboard, such as updating plugins, ensuring backups are running, and running security scans",
-    },
-    {
-      company: "KS Devware",
-      title: "Founder",
-      image: "img/behance.png",
-      years: "March 2021 - Present",
-      description:
-        "• Developing revenue-generating applications at both small and large scales <br />• Providing comprehensive maintenance support <br />• Improving the user interface <br />• Building apps for self-health and helping the nation",
-    },
-    {
-      company: "WorksLee",
-      title: "Founder",
-      image: "img/behance.png",
-      years: "Januery 2022 - Present",
-      description:
-        "• WorksLee is a peer-to-peer marketplace designed to help people manage their daily workload. It's a place where we are empowering small local entrepreneurs. and helping people to earn by part-time handy work.",
     },
   ],
 ];
