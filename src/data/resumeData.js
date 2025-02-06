@@ -1,9 +1,9 @@
 export const main = {
   name: "Rashadul Islam",
-  occupation: "Junior Web & Mobile Developer",
-  description: "Junior Web & Mobile Developer",
+  occupation: "Junior Frontend Developer",
+  description: "Junior Frontend Developer",
   image: "profilepic.jpg",
-  bio: "As the co-founder of KS Devware (software development company), I am Rashadul Islam. A young entrepreneur. With nearly 2 years of experience, I’m a software engineer (full-stack web & mobile) and UI/UX designer. Worked as a senior lead full-stack developer. Moreover, I work on a few startups aimed at the Bangladesh. Developing software for the world of intent is something I'm passionate about and I'm dedicated to making the world of intent easy and affordable for everyone.",
+  bio: "I am Rashadul Islam. A  Frontend Developer (web & mobile) and UI/UX designer. Worked as a senior lead Frontend Developer. Moreover, I work on a few startups aimed at the Bangladesh. Developing software for the world of intent is something I'm passionate about and I'm dedicated to making the world of intent easy and affordable for everyone.",
   email: "rashadstack@gmail.com",
   phone: "+880 17582 14729",
   quote: "The universe is a pretty big place. If it's just us.",
@@ -46,7 +46,7 @@ export const main = {
 };
 
 export const about = {
-  bio: "I am a software <br /><span class='text-primary'>engineer</span> who cares<br /> about the code and the people.",
+  bio: "I am a Frontend <br /><span class='text-primary'>Developer</span> who cares<br /> about the code and the people.",
   ido: "<p>WEB DEVELOPMENT</p><p>APP DEVELOPMENT</p><p>UI/UX DESIGN</p><p>FRONT-END DEVELOPMENT</p><p>BACK-END DEVELOPMENT</p><p>FULL-STACK DEVELOPMENT</p>",
   years: 2,
   image: "img/profilepic.jpg",
@@ -142,6 +142,7 @@ export const skills = {
         "WordPress",
         "Google Map",
         "Mapbox",
+        "Docker",
       ],
     },
   ],
