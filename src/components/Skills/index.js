@@ -36,8 +36,16 @@ function Skills({ skills, title, subtitle }) {
                       <h4>{title}</h4>
                       <div className="mb-4 pt-2 skills_wrapper">
                         {skills?.map((skill) => (
-                          <div key={skill} className="skill-item">
-                            <h6 className="mt-0">{skill}</h6>
+                          <div key={skill.name} className="skill-item">
+                            {skill?.icon ? (
+                              <i
+                                className={`${skill?.icon} fa-4x`}
+                                style={{
+                                  fontSize: "2rem",
+                                }}></i>
+                            ) : (
+                              <h6>{skill.name}</h6>
+                            )}
                           </div>
                         ))}
                       </div>
