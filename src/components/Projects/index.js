@@ -1,15 +1,20 @@
 import { useState } from "react";
-
-let timer;
+import { Modal } from "react-responsive-modal";
+import "react-responsive-modal/styles.css";
 
 function Projects({ projects, github }) {
-  const [active, setActive] = useState(null);
+  const [modalIsOpen, setModalIsOpen] = useState(true);
+  const [selectedProject, setSelectedProject] = useState(null);
 
-  const setNull = () => {
-    clearTimeout(timer);
-    timer = setTimeout(() => {
-      setActive(null);
-    }, 5000);
+  const openModal = (project) => {
+    setModalIsOpen(true);
+    console.log(project);
+    setSelectedProject(project);
+  };
+
+  const closeModal = () => {
+    setModalIsOpen(false);
+    setSelectedProject(null);
   };
 
   return (
@@ -28,32 +33,33 @@ function Projects({ projects, github }) {
                 <h2 className="text-white mb-0">Latest projects</h2>
                 <div className="mt-5 pt-2">
                   <div className="row-project-box row">
-                    {projects?.map(({ title, category, image, url }, idx) => (
+                    {projects?.map((project, idx) => (
                       <div
                         key={idx}
-                        onMouseEnter={() => {
-                          clearTimeout(timer);
-                          setActive(image);
-                        }}
-                        onMouseLeave={setNull}
                         className="col-project-box col-md-6 col-lg-4 col-xl-3">
-                        <a
+                        <div
                           style={{
                             backgroundImage: `${
-                              active === image
-                                ? "url('img/bg/portfolio/" + active + "')"
-                                : "none"
+                              "url('img/bg/portfolio/" + project.image + "')"
                             }`,
                           }}
-                          href={url}
                           target="_blank"
                           rel="noreferrer"
-                          className="project-box">
-                          <div className="project-box-inner">
-                            <h4>{title}</h4>
-                            <div className="project-category">{category}</div>
-                          </div>
-                        </a>
+                          className="project-box"
+                        />
+                        <div>
+                          <h4
+                            style={{
+                              color: "#fff",
+                            }}>
+                            {project.title}
+                          </h4>
+                          <button
+                            className="btn btn-outline-light"
+                            onClick={() => openModal(project)}>
+                            Details
+                          </button>
+                        </div>
                       </div>
                     ))}
                   </div>
@@ -71,6 +77,55 @@ function Projects({ projects, github }) {
           </div>
         </div>
       </section>
+
+      {selectedProject && (
+        <Modal
+          open={modalIsOpen}
+          onClose={closeModal}
+          contentLabel="Project Details"
+          className="modal-content"
+          overlayClassName="modal-overlay">
+          <h2>{selectedProject.title}</h2>
+          <img
+            src={`img/bg/portfolio/${selectedProject.image}`}
+            alt={selectedProject.title}
+            className="img-fluid"
+          />
+          <p>{selectedProject.category}</p>
+          <p>
+            <strong>Main technology stack used:</strong>{" "}
+            {selectedProject.technologyStack}
+          </p>
+          <p>
+            <strong>Brief description:</strong> {selectedProject.description}
+          </p>
+          <p>
+            <strong>Live project link:</strong>{" "}
+            <a href={selectedProject.liveLink} target="_blank" rel="noreferrer">
+              {selectedProject.liveLink}
+            </a>
+          </p>
+          <p>
+            <strong>GitHub repository link (only client):</strong>{" "}
+            <a
+              href={selectedProject.githubLink}
+              target="_blank"
+              rel="noreferrer">
+              {selectedProject.githubLink}
+            </a>
+          </p>
+          <p>
+            <strong>Challenges faced while developing the project:</strong>{" "}
+            {selectedProject.challenges}
+          </p>
+          <p>
+            <strong>
+              Potential improvements and future plans for the project:
+            </strong>{" "}
+            {selectedProject.futurePlans}
+          </p>
+        </Modal>
+      )}
     </>
   );
 }
